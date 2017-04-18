@@ -15,14 +15,15 @@ d.	Use logical referencing to get only those values that are less than 45
 e.	Compute the max and min of the array using numpy.max() and numpy.min()
 3.	Introduction to pandas – 
 a.	Import the pandas library – import pandas
-b.	Read the IRIS dataset into iris using pandas.read_csv(). Data file – 
- 
+b.	Read the IRIS dataset into iris using pandas.read_csv(). 
+Data file – 
 c.	Using iris.head(), display the head of the dataset
 d.	Use DataFrame.drop() to drop the id column
 e.	Subset dataframe to create a new data frame that includes only the measurements for the setosa species
 f.	Use DataFrame.describe() to get the summary statistics
 g.	Use DataFrame.groupby() to create grouped data frames by Species and compute summary statistics using DataFrame.describe()
 h.	Use DataFrame.boxplot() to plot boxplots by Species
+
 i.	Plot a scatter matrix plot using the seaborn library. Use the following to load and plot 
 i.	Import seaborn
 ii.	Seaborn.pairplot(dataframe,by=’column_name’)
