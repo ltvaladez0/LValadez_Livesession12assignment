@@ -23,7 +23,6 @@ e.	Subset dataframe to create a new data frame that includes only the measuremen
 f.	Use DataFrame.describe() to get the summary statistics
 g.	Use DataFrame.groupby() to create grouped data frames by Species and compute summary statistics using DataFrame.describe()
 h.	Use DataFrame.boxplot() to plot boxplots by Species
-
 i.	Plot a scatter matrix plot using the seaborn library. Use the following to load and plot 
 i.	Import seaborn
 ii.	Seaborn.pairplot(dataframe,by=’column_name’)
